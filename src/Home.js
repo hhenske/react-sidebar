@@ -12,8 +12,13 @@ const GridWrapper = styled.div`
   grid-auto-rows: minmax(25px, auto);
 `;
 export const Home = (props) => (
-  <GridWrapper className = "App-header">
-    <p>This is a paragraph and I am writing on the home page</p>
-    <p>This is another paragraph, hi hey hello whatsup yo</p>
+  <GridWrapper className = "Home-header">
+    <header>
+     <h1>Workout Coach</h1> 
+    </header>
+    <body className ="Home-body">
+    <p>What kind of workout would you like?</p>
+    <p>How you're feeling</p>
+    </body>
   </GridWrapper>
 )

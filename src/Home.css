@@ -1,6 +1,5 @@
-.App-header {
+.Home-header {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,4 +8,14 @@
     color:black;
   }
 
+  .Home-body {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    min-height: 75vh;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color:black;
+  }
   
